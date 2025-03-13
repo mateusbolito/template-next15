@@ -6,6 +6,7 @@ export default async function Home() {
   console.log(data);
   return (
     <div className="bg-gray-700 min-h-screen flex items-center justify-center text-2xl ">
+      <div>ola</div>
       <pre>{JSON.stringify(data, null, 2)}</pre>
     </div>
   );
